@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>電卓アプリ</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="calculator">
+            <div class="container">
+                <input type="text" class="result">
+                <div class="calculate">
+                    <div class="number1">
+                        <button onclick="calculationNum('7')">7</button>
+                        <button onclick="calculationNum('8')">8</button>
+                        <button onclick="calculationNum('9')">9</button>
+                        <button onclick="calculationNum('/')">÷</button>
+                    </div>
+                    <div class="number2">
+                        <button onclick="calculationNum('4')">4</button>
+                        <button onclick="calculationNum('5')">5</button>
+                        <button onclick="calculationNum('6')">6</button>
+                        <button onclick="calculationNum('*')">x</button>
+                    </div>
+                    <div class="number3">
+                        <button onclick="calculationNum('1')">1</button>
+                        <button onclick="calculationNum('2')">2</button>
+                        <button onclick="calculationNum('3')">3</button>
+                        <button onclick="calculationNum('-')">-</button>
+                    </div>
+                    <div class="number4">
+                        <button onclick="calculationNum('8')">0</button>
+                        <button onclick="calculationResult('=')">=</button>
+                        <button onclick="calculationNum('+')">+</button>
+                        <button onclick="clearinput()"class="ac">AC</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
